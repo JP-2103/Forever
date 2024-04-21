@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url("https://static.vecteezy.com/system/resources/previews/000/616/846/original/vector-watercolor-hearts-seamless-pattern-repeating-valentines-day-background-with-painted-red-hearts-romantic-textile-wrapping-paper-wallpaper-or-scrapbooking-texture.jpg");
+}
+.yes{
+    margin:15vw 0vw 0vw 23vw;
+} 
+.yes h1{
+    font-family: 'pompiere', sans-serif;
+    font-size: 80px;
+}
+.btns {
+    margin: 2vw;
+    padding:3vw;
+    width:40vw;
+    display: flex;
+    justify-content: space-around;
+}
+.btns button{
+    width: 8vw;
+    height:5vh;
+    font-size: 20px;
+    border-radius: 1.5vw;
+    border:3px solid  rgb(251, 164, 179);
+    background-color: white;
+    cursor: pointer;
+}
+.btns button:hover{
+    border: 3px solid  goldenrod; 
+}
+.btns button:active{
+    border: 3px solid rgb(252, 190, 212);
+    background-color: rgb(255, 117, 140);
+    color:rgb(255, 255, 255);
+    
+}

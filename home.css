@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    padding:2vw;
+    box-shadow: 3px 3px 4px rgba(110, 110, 110, 0.668);
+} 
+.back button{
+    width:8vw;
+    height: 5vh;
+    font-family: 'Anton';
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid rgb(255, 135, 135);
+    cursor: pointer;
+}
+.back button:hover{
+    border:2px solid rgb(255, 63, 82);
+    background-color: pink;
+    font-size: 27px;
+}
+.back button:active{
+    background-color: rgb(253, 137, 156);
+}
+.icons{
+    width:23vw;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left:73vw;
+    margin-top:-2vw;
+    font-size: 28px;
+    font-family: 'Abel' sans-serif;  
+    cursor: pointer;
+}
+.underline{
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+.intro img{
+    width:45vw;
+    margin-top:4vw;
+}
+.text h1{
+   font-family:'Pompiere' ;
+   font-size: 90px;
+   margin:15vw 3vw 1.75vw 2vw;  
+}
+.text p{
+    font-size:30px;
+    margin-left:2vw;
+    margin-bottom:2vw;
+}
+.aboutus img{
+    width:70vw;
+    margin-top:5vw;
+    margin-left:16vw;
+}
+.aboutustext{
+    position: absolute;
+    top:60vw;
+    left:30vw;
+    text-align: center;
+    width:40vw;
+}
+.aboutustext h1{
+    font-size:55px;
+    margin-bottom:1vw;
+    font-family: 'Anton';
+    font-weight: 100;
+    color:white;
+    text-shadow: 5px 4px rgb(0, 0, 0);
+}
+.aboutustext p{
+    font-size:32px;
+    width:30vw;
+    margin-left:6vw;
+    font-family: 'Pompiere';
+}
+.myfav{
+    background: url("https://static.vecteezy.com/system/resources/previews/000/616/846/original/vector-watercolor-hearts-seamless-pattern-repeating-valentines-day-background-with-painted-red-hearts-romantic-textile-wrapping-paper-wallpaper-or-scrapbooking-texture.jpg");
+    background-size: cover;
+    margin: 3vw;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px ;
+}
+
+#title{
+    margin-top:7vw;
+    margin-bottom: 5vw;
+    font-size:70px;
+    font-family: 'Quicksand';
+}
+
+.qualities , .adventures, .traditions, .futuregoals, .nicknames, .image{
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 20px;
+    padding:2vw;
+    width:25vw;
+    height:45vh;
+    border: 2px solid black;
+}
+
+.image{
+    margin:-17px;
+    padding:0vw;
+    border:none;
+}
+.image img{
+    width:32vw;
+}
+.favourites h1{
+    font-family:'Poppins',sans-serif;
+    margin-bottom:2vw;
+    font-size:35px;
+    text-align: center;
+}
+
+.favourites p{
+    font-family:'Abel', sans-serif;
+    font-size: 18px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom:1vw;
+}
+
+.favourites li{
+    font-family:'Abel', sans-serif;
+    font-size: 20px;
+    padding-left:10px;
+    padding-right:15px; 
+    list-style-type:disc;
+    line-height: 25px;
+}

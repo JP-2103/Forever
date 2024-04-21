@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Fredoka:wght@500&family=Inter:wght@300&family=Oi&family=Pompiere&family=Poppins:wght@100;300;500&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    padding:2vw;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.668);
+} 
+.back button{
+    width:8vw;
+    height: 5vh;
+    font-family: 'Anton';
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid rgb(255, 135, 135);
+    cursor: pointer;
+}
+.back button:hover{
+    border:2px solid rgb(255, 63, 82);
+    background-color: pink;
+    font-size: 27px;
+}
+.back button:active{
+    background-color: rgb(253, 137, 156);
+}
+.icons{
+    width:23vw;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left:73vw;
+    margin-top:-2vw;
+    font-size: 28px;
+    font-family: 'Abel' sans-serif;  
+    cursor: pointer;
+}
+.underline{
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.content{
+    margin:3vw;
+    background: url("https://wallpapers.com/images/featured/white-heart-background-yofw6xqmx6nahcel.jpg");
+    background-size: cover;
+}
+.main{
+    width:60vw;
+    padding:2vw;
+    margin-left:16vw;
+}
+.main h1{
+    text-align: center;
+    margin:1vw;
+    font-size: 60px;
+    font-family: "Pompiere";
+}
+.main p{
+    line-height:40px;
+    font-size: 22px;
+    font-family: 'Inter';
+}
+.main h2{
+    margin-top:2vw;
+    font-size:120px;
+}
